@@ -1,0 +1,181 @@
+/*styling for page "Home"*/
+
+.heading{
+    text-align: center;
+    margin-top: 72px;
+    font-size: 24px;
+    font-family: 'firago-medium';
+}
+@font-face {
+    font-family: 'poppins-medium';
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: 'firago-medium';
+    src: url(../fonts/FiraGO-Medium.ttf);
+}    
+@font-face {
+    font-family: 'poppins-Bold';
+    src: url(../fonts/Poppins-Bold.ttf);
+}    
+@font-face {
+    font-family: 'poppins-Regular';
+    src: url(../fonts/Poppins-Regular.ttf);
+}      
+ol{
+    list-style: none;
+    font-family: 'poppins-medium';
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.horizontal{
+    display: inline;
+}
+.home{
+    margin-left: 537px;
+    margin-top: 30px;
+}
+.about{
+    margin-left: 150px;
+
+}
+.contact{
+    margin-left: 147px;
+} 
+header{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid black ;
+}
+.first{
+    width: 333px;
+    height: 487px;
+    border: 1px solid black;
+    padding: 11px;
+    margin-left: 126px;
+    display: inline-block;
+}
+.second{
+    width: 333px;
+    height: 487px;
+    border: 1px solid black;
+    padding: 11px;
+    margin-left: 112px;
+    display: inline-block;
+}
+.third{ 
+    width: 333px;
+    height: 487px;
+    border: 1px solid black;
+    padding: 11px;
+    margin-left: 90px;
+    display: inline-block;
+}
+.title{
+    margin-top: 15px;
+    font-family: 'poppins-Bold';
+
+}
+.description{
+    margin-top: 13.48px;
+    font-family: 'poppins-Regular';
+}
+.button{
+    margin-top: 15px;
+    margin-left: 215px;
+    font-size: 12px;
+    width: 118px;
+    height: 30px;
+    font-family: 'poppins-Regular';
+}
+section{
+    margin-top: 120px;   
+    margin-bottom: 237px;
+}
+img{
+    width: 100%;
+}
+.one{
+    margin-left: 131px;
+    margin-bottom: 10px;
+    list-style-type: disc;
+    
+}
+.two{
+    margin-left: 620px;
+    margin-bottom: 10px;
+    list-style-type: disc;
+}
+.three{
+    margin-left: 1070px;
+    margin-bottom: 10px;
+    list-style-type: disc;
+}
+.ul3{
+
+}
+
+
+/*styling for page "about the company"*/
+@font-face {
+    font-family: 'opensans-semibold';
+    src: url(../fonts/OpenSans-Semibold.ttf);
+}
+@font-face {
+    font-family: 'opensans-semibolditalic';
+    src: url(../fonts/OpenSans-SemiboldItalic.ttf);
+}
+@font-face {
+    font-family: 'opensans-Regularitalic';
+    src: url(../fonts/OpenSans-RegularItalic.ttf);
+}
+.aboutus{
+    text-align: center;
+    margin-top: 112px;
+    color: darkred;
+    margin-bottom: 118px;
+    font-size: 40px;
+    font-family: 'opensans-semibold';
+}
+.div{
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-left: 175px;
+    font-size: 20px;
+    font-family: 'opensans-semibold';
+}
+.tenth{
+    margin-top: 59px;
+    font-family: 'opensans-Regularitalic';
+    
+}
+
+
+/*styling for page "Contact Us"*/
+
+.contactus{
+    margin-top: 112px;
+    color: darkred;
+    margin-bottom: 118px;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'opensans-semibold';
+}
+.details{
+    margin-top: 35px;
+    margin-left: 175px;
+    font-size: 20px;
+}
+.address{
+    text-transform: capitalize;
+    font-family: 'opensans-semibold';
+}
+.mail{
+    text-decoration-line: underline;
+    font-family: 'opensans-semibolditalic';
+}
+.number{
+    font-family: 'opensans-semibold';
+}
